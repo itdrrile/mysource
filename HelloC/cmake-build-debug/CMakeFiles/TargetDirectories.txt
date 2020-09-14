@@ -1,0 +1,3 @@
+/home/itdrrile/workspace/HelloC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/itdrrile/workspace/HelloC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/itdrrile/workspace/HelloC/cmake-build-debug/CMakeFiles/HelloC.dir
