@@ -2,13 +2,18 @@ package com.itdrrile.groovy.bean.test
 
 import com.itdrrile.groovy.bean.Student
 
-// groovy脚本形式进行测试
+/**
+ * groovy脚本
+ *    1) 文件后缀同样为 .groovy
+ *    2) 不需要class定义
+ */
 
+// 直接创建对象
 Student student = new Student();
 
 // 测试省略return
 student.setName("张三")
-println student.getName() // 调用方法可以省略()，方法名后面直接跟参数，使用空格隔开
+println student.getName() // 调用带参数方法可以省略()，方法名后面直接跟参数，使用空格隔开
 
 // 测试非private修饰的属性，默认自动生成getter/setter方法
 student.setProperties(new HashMap<String, Object>(){{put("id", 1)}})

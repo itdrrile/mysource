@@ -2,8 +2,9 @@ package com.itdrrile.groovy.bean
 
 /**
  * 使用groovy创建bean
- ×    1）类名前无权限修饰符public、protected、default、private， 均为公共的public
- ×    2）默认带有具名构造器
+ *    1)groovy类文件后缀为 .groovy
+ ×    2）类名前无权限修饰符public、protected、default、private， 均为公共的public
+ ×    3）默认带有具名(key:value)构造器
  */
 class Student {
 
